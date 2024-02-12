@@ -7,7 +7,7 @@ const Profile = ({
   avatar,
   stats: { followers, views, likes },
 }) => (
-  <div className={css.profile}>
+  <section className={css.profile}>
     <div className={css.description}>
       <img src={avatar} alt="User avatar" className={css.avatar} />
       <p className={css.name}>{username}</p>
@@ -31,7 +31,7 @@ const Profile = ({
         <span className={css.quantity}>{likes.toLocaleString('en-US')}</span>
       </li>
     </ul>
-  </div>
+  </section>
 );
 
 export { Profile };

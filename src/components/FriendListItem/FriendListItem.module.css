@@ -1,0 +1,32 @@
+.item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 4px 8px;
+  background-color: #ffffff;
+  box-shadow: #b7c1d0 0px 1px 4px;
+  border-radius: 4px;
+}
+
+
+.status {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.avatar {
+  flex-shrink: 0;
+  background-color: #f3f6f9;
+  border-radius: 8px;
+}
+
+.name {
+  flex-grow: 1;
+  font-size: 1.25rem;
+  margin-left: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
